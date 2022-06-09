@@ -8,7 +8,7 @@ library(Matrix)
 
 #######################################################################
 ## The following are implementations for the program that calculates ##
-## the first derivative (score) vector of the parameters						 ##
+## the first derivative (score) vector of the parameters	     ##
 #######################################################################
 
 # Requires: the labels in n_js are consecutive numbers 
@@ -85,7 +85,7 @@ stratified_score = function(X, strata_labels, y_labels) {
 
 #######################################################################
 ## The following are implementations for the program that calculates ##
-## the second derivative (Hessian) matrix of the parameters					 ##
+## the second derivative (Hessian) matrix of the parameters	     ##
 #######################################################################
 # Requires: y_indicators is the output of y_to_indicator()
 # Effect: 	Horizontally stack z_j's into a N x J matrix,
